@@ -20,11 +20,17 @@ header .profilePhoto {
     width: 25%;
     height: 25%;
     clear: both;
-    min-width: 64px;
-    min-height: 64px;
     max-width: 1024px;
     max-height: 1024px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
+
+header .profilePhoto img {
+   display: block;
+   width: 100%;
+}
+
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
@@ -396,4 +402,6 @@ footer .footerNote {
 	margin-right: 3%;
 	font-family: sans-serif;
 }
+}
+.profilePic {
 }
